@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src",
-    "lib": ["esnext"],
-    "esModuleInterop": true,
-    "strict": true
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "compileOnSave": true,
+  "include": ["src"]
 }
