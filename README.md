@@ -7,7 +7,8 @@ https://pnpm.io/installation
 
 pnpmをインストールしたら
 
-- `yarn bootstrap`
+- `pnpm install`
+- `pnpm bootstrap`
 - `pnpm dev`
 - `cd packages/frontend && pnpm codegen-watch`
 
