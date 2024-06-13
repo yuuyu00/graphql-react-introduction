@@ -10,7 +10,6 @@ pnpmをインストールしたら
 - `pnpm install`
 - `pnpm bootstrap`
 - `pnpm dev`
-- `cd packages/frontend && pnpm codegen-watch`
 
 localhost:9000 にGraphQL APIのPlayground
 localhost:3000 にReactアプリが開かれます
